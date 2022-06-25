@@ -1,0 +1,51 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.Aboutcontainer h1
+{
+    text-align: center;
+}
+.Aboutcontainer
+{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+.Aboutcard
+{
+    border: 2px solid black;
+    width: 300px;
+    text-align: center;
+    
+}
+.Aboutcard img{
+    width:100px;
+}
+.Aboutcard h3{
+    margin: 12px;
+}
+.Aboutcard p{
+    margin: 5px;
+    padding: 5px;
+    font-size: 16px;
+}
+.AboutButton
+{
+    text-align: center;
+    margin: 20px;
+}
+.AboutButton button
+{
+    padding: 7px;
+    background-color:rgb(241, 33, 33);
+    color: rgb(254, 249, 249);
+    border-radius: 3px;
+    border-style: none;
+    font-size: 20px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
