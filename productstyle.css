@@ -3,19 +3,40 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-.product_container {
-    margin: auto;
-    width: 80%;
-}
-
 .product_name {
     text-align: center;
     margin: 10px;
 }
+.product_container {
+    margin: auto;
+    width: 90%;
+    display: flex;
+    
+}
+
+.filter_column{
+width: 20%;
+background: gray;
+}
+.filter_column input{
+    padding: 10px;
+    margin: 10px; 
+    outline: none;
+    border-radius:5px ;
+}
+.filter_column h4{
+    margin: 10px;
+}
+.Categories{
+    margin: 10px;
+}
+.Categories a{
+    line-height: 30px;
+    cursor: pointer;
+}
 
 .product_row {
-    width: 100%;
+    width: 80%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
